@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/waves/waves.min.css">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	
+	
+	<div class="sidebar">
+		<div class="sidebar__logo"><h1>CRM</h1></div>
+		<div class="sidebar__menu">
+			<ul>
+				<li><a href="#" class="vawe-effect" value="Button C"><i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard</a>		</li>
+				<li><a href="#" class="vawe-effect"><i class="fa fa-pie-chart" aria-hidden="true"></i>Reports</a>	</li>
+				<li class="h-active"><a href="#" class="vawe-effect "><i class="fa fa-briefcase" aria-hidden="true"></i>Customers</a>	</li>
+				<li><a href="#" class="vawe-effect"><i class="fa fa-calendar" aria-hidden="true"></i>Calendar</a>	</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="content__topbar">
+			<div class="content__topbar__breadcrumbs">
+				<a href="#">Customers</a>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i>
+				<a href="#" class="active">Max Jones</a>
+			</div>
+			<div class="content__topbar__search">
+				<input type="text" placeholder="SEARCH"><i class="fa fa-search" aria-hidden="true"></i>
+			</div>
+			<div class="content__topbar__remainder">
+				<i class="fa fa-bell" aria-hidden="true"></i><span>4</span>
+			</div>
+		</div>
+		<div class="content__topbar__avatar">
+			<img src="img/2.png" alt="Avatar">
+			<span>Hello Lauren</span>
+		</div>
+
+		<div class="customer">
+			<div class="customer__img">
+				<img src="img/1.png" alt="img">
+			</div>
+			<div class="customer__name">
+				<p class="name">Max Jones <span class="gold">GOLD</span></p>
+				<p class="about">Sales & Marketing</p>
+				
+			</div>
+			<div class="customer__data">
+				<div class="customer__phone">
+				<p class="phone-1"><span>phone</span></p>  <br>
+				<p class="phone-2">(+31) 140 175 468</p> 
+				</div>
+				<div class="customer__adress">
+				<p class="adress-1"><span>address</span></p> <br>
+				<p class="adress-2">Binnenweg 50, Rotterdam</p>
+
+				</div>
+				<p class="btn">Create Quote</p>
+			</div>
+			<div class="tabs">
+				<ul>
+					<li class="active">Overview</li>
+					<li>Orders</li>
+					<li>Payments</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+<script src="libs/waves/waves.min.js"></script>
+
+	<script type="text/javascript">
+	window.onload = function(){
+
+		Waves.init({
+	duration: 900,
+	delay: 200
+});
+
+	};
+	</script>
+
+
+<script type="text/javascript">
+			Waves.attach(".vawe-effect", [
+				"waves-block",
+				"waves-float",
+				"waves-light"
+			]);
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<script src="js/libs.min.js"></script>
+
+</body>
+</html>
